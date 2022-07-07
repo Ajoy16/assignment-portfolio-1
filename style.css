@@ -1,9 +1,12 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    line-height: 140%;
+    margin: 0px;
 }
 .text-adjust{
-    font-size: 60px;
+    font-size: 70px;
     color:azure;
+    
 }
 .center-form{
     text-align: center;
@@ -28,23 +31,5 @@ margin: 0%;
     padding:10px 40px;
     border-radius: 5px
 }
-.half-width{
-    width: 50%;
-    padding-left: 10%;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 30px rgb(246, 243, 243) ;
-    border-radius: 10px;
 
-}
-.half-width{
-    width: 80%;
-}
-.give-money{
-    text-align: center;
-}
-.flexiable{
-    display:flex;
-    margin-bottom: 10px;
-}
+
