@@ -1,7 +1,8 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 140%;
-    margin: 0px;
+    margin: 0%;
+    overscroll-behavior: none;
 }
 .text-adjust{
     font-size: 70px;
@@ -14,22 +15,107 @@ body{
 }
 .text-middle{
     font-size: 20px;
-    color:aqua;
+    color:rgb(245, 251, 251);
 }
  .layout-image{
 background-image: url(images/children.jpg);
 background-repeat: no-repeat;
+background: blur;
 width: 1600px;
 height: 720px;
 margin: 0%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgb(255, 0, 0),tomato);
     color:white;
     font-weight: 700;
-    padding:10px 40px;
-    border-radius: 5px
+    padding:20px 40px;
+    border-radius: 15px;
+   font-size: larger;
+}
+.donation-area{
+    text-align: center;
+    font-weight: 700;
+}
+.flexiable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.amount{
+    text-align: center;
+}
+#boxes{
+    display: flex; 
+    flex-direction: row;
+    justify-content:center;
+
 }
 
+#leftbox {
+    float:right;
+    background:rgb(247, 234, 234);
+    width:10%;
+    height:100px;
+}
+#middlebox{
+    float:right; 
+    background:rgb(247, 234, 234);
+    width:10%;
+    height:100px;
+    color: rgb(251, 164, 164);
+}
+#rightbox{
+    float:right;
+    background:rgb(247, 234, 234);
+    width:10%;
+    height:100px;
+}
+#lastbox{
+    float:right;
+    background:rgb(247, 234, 234);
+    width:10%;
+    height:100px;
 
+}
+#endbox{
+    float:right;
+    background:rgb(247, 234, 234);
+    width:10%;
+    height:100px;
+}
+#new{
+    text-align: center;
+    gap: 100px;
+}
+#donation-plan{
+    text-align: center;
+    gap: 30px;
+}
+#select{
+    text-align: center;
+}
+#box-1{
+    float:left;
+    background:rgb(247, 234, 234);
+    width:35%;
+    height:200px;
+}
+#box-2{
+    float:left;
+    background:rgb(76, 249, 186);
+    width:35%;
+    height:200px;
+}
+#box-3{
+
+    background:rgb(176, 218, 248);
+    height:200px;
+}
+footer p{
+    text-align: center;
+    background-color: rgb(9, 9, 9);
+    color: aqua;
+}
